@@ -90,10 +90,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* install Mongodb
   ```sh
-  npm install npm@latest -g
+   https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+  ```
+* install Node.js
+  ```sh
+   https://nodejs.org/en/download/current/
   ```
 
 ### Installation
@@ -104,21 +107,54 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/ninjaroot/Node-Registration-system.git
    ```
-2. Install NPM packages
+   
+  2. go to project path
    ```sh
-   npm install
+   cd Node-Registration-system
    ```
-3. generate a self-signed SSL certificate using OpenSSL
-  cd 
-  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
-0. Edit .env 
+  3. npm install packages
+   ```sh
+   npm i
+   ```
+4. go to certificates path
+   ```sh
+   cd certificates
+   ```
+5. generate a self-signed SSL certificate using OpenSSL
+   ```sh
+   sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
+   ```
+6. edit .env
+   ```sh
+   nano .env or open the .env by any editior 
+   ```
+  
+7. change mongodb host
+   ```sh
+  MONGODB_HOST="your mongodb host"
+   ```
+  
+8. change email to put your email
+   ```sh
+   EMAIL_USER ="your email adress"
+   ```
+9. change password pu your email password
+   ```sh
+  EMAIL_PASSWORD ="your email password"
   ```
-  MONGODB_HOST="mongodb host"
-EMAIL_USER ="test@test.com"
-EMAIL_PASSWORD ="123"
-   ```js
-0 . run npm test or nodemon server/www
 
+10. to run the server
+   ```sh
+   npm test
+   ```
+11. if you want run the server using nodemom first 
+   ```sh
+   npm i nodemon
+   ```
+* then run
+  ```sh
+  nodemon server/www
+  ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
