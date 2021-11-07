@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="/unnamed.png" alt="Logo" width="80" height="80">
+    <img src="/images/unnamed.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Node Registration system</h3>
@@ -149,4 +149,4 @@ linkedin : (https://www.linkedin.com/in/abdalla-yahya-560a861b7/)
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]:https://www.linkedin.com/in/abdalla-yahya-560a861b7/
-[product-screenshot]: /Screenshot%20from%202021-11-07%2011-49-55.png
+[product-screenshot]: /images/Screenshot%20from%202021-11-07%2011-49-55.png
