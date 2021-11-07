@@ -66,14 +66,17 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
+* [Nodejs](https://nodejs.org/en/)
+* [Mongodb](https://www.mongodb.com/)
+* [monk](https://www.npmjs.com/package/monk)
+* [Nodemailer](https://www.npmjs.com/package/nodemailer)
+* [md5](https://www.npmjs.com/package/md5)
+* [Express.js](https://expressjs.com/)
+* [javascript](https://www.javascript.com/)
+* [html](https://html.com/)
+* [ajax javascript](https://www.javascriptstuff.com/ajax-libraries/)
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -97,19 +100,24 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ninjaroot/Node-Registration-system.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. generate a self-signed SSL certificate using OpenSSL
+  cd 
+  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
+0. Edit .env 
+  ```
+  MONGODB_HOST="mongodb host"
+EMAIL_USER ="test@test.com"
+EMAIL_PASSWORD ="123"
    ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+0 . run npm test or nodemon server/www
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -173,7 +181,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Abdalla yahya - abdallayahya158@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
