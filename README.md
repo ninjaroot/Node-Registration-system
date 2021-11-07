@@ -16,7 +16,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-### I Coded It From Scratch
+### I Coded The Backend From Scratch (Front-End) i Used templeates
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
  ### in auths folder (login.js-register.js-reset.js-monqu.js-emailcheck.js-mailer.js)
   * #### login.js login functions
