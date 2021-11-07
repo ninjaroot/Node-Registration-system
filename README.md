@@ -110,20 +110,40 @@ technologies and frameworks is used
    ```sh
    EMAIL_PASSWORD ='your email password'
    ```
+10. crete database in mongo db name 'registration'
+   ```sh
+   and tow Collections ('users'-'reset')
+   ```
+   
   
-10. run the server using npm 
+11. run the server using npm 
    ```sh
    npm test
    ```
   
-11. if you want run the server using nodemom first 
+12. if you want run the server using nodemom first 
    ```sh
    npm i nodemon
    ```
 * then run
   ```sh
+  npm rebuild
+  ```
+  
+13. if you got that erorr after create self signed cert
+   ```sh
+   node:internal/fs/utils:344
+   throw err;
+   Error: ENOENT: no such file or directory, open '../certificates/server.key'
+   ```
+* just run that 
+  ```sh
   nodemon server/www
   ```
+   
+  
+  
+ 
 
 <!-- ROADMAP -->
 ## Roadmap
