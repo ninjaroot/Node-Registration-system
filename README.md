@@ -78,11 +78,11 @@ technologies and frameworks is used
    git clone https://github.com/ninjaroot/Node-Registration-system.git
    ```
    
-  2. go to project path
+2. go to project path
    ```sh
    cd Node-Registration-system
    ```
-  3. npm install packages
+3. npm install packages
    ```sh
    npm i
    ```
@@ -101,7 +101,7 @@ technologies and frameworks is used
   
   
   
- 7. change mongodb host
+7. change mongodb host
    ```sh
   MONGODB_HOST='your mongodb host'
   ```
@@ -110,12 +110,12 @@ technologies and frameworks is used
    EMAIL_USER ='your email adress'
    ```
   
-  9. change password put your email password
+9. change password put your email password
    ```sh
   EMAIL_PASSWORD ='your email password'
   ```
 
-  10. run the server using npm 
+10. run the server using npm 
    ```sh
    npm test
    ```
