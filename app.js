@@ -60,7 +60,7 @@ app.use('/', indexRouter);
 
 //handel erorr 404 when ask for get function dosen't exsist
   app.all('*', (req, res) => {
-    return res.sendFile(path.join(__dirname + '/views/404.html'));  });
+    return res.sendFile(path.join(__dirname + '/views/erorr_pages/404.html'));  });
 
   app.use(function(err, req, res, next) {
     if(err.status = 404){
