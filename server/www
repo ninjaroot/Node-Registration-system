@@ -19,9 +19,9 @@ app.set('port', port);
 // set sll certificates
 const httpsOptions = {
   //path to key
-  key: fs.readFileSync("/home/ninja/registration_system/certificates/server.key"),
+  key: fs.readFileSync("./certificates/server.key"),
   //path to crt
-  cert: fs.readFileSync("/home/ninja/registration_system/certificates/server.crt")
+  cert: fs.readFileSync("./certificates/server.crt")
 }
 var server = https.createServer(httpsOptions,(app) )
 /**
