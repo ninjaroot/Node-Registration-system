@@ -6,7 +6,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="/unnamed.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -17,24 +16,21 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+### I Coded It From Scratch
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
+ ### in auths folder (login.js-register.js-reset.js-monqu.js-emailcheck.js-mailer.js)
+  * #### login.js login functions
+  * #### register.js register functions
+  * #### reset password functions
+  * ####  monqu mongodb queries (insert-find-update)
+  * #### emailcheck function check if email exists i used this function many times
+  * #### mailer.js  send emails using  nodemailer
+  
+* ### in certificates folder self-signed SSL certificate
+* ### in views html pages (login.html-register.html-main.html-forget.html-code.html-reset.html) view/erorr_pages (404.html-500.html)
+* ### in routes/index.js get functions and check sesstions 
+* ### the https server in server/www
+# For More Info Open The Code and Read The Comments In The Code
 ### Built With
 
 technologies and frameworks is used
@@ -49,9 +45,6 @@ technologies and frameworks is used
 * [html](https://html.com/)
 * [ajax javascript](https://www.javascriptstuff.com/ajax-libraries/)
 * [Bootstrap](https://getbootstrap.com)
-* 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -82,29 +75,32 @@ technologies and frameworks is used
    ```sh
    cd Node-Registration-system
    ```
+  
 3. npm install packages
    ```sh
    npm i
    ```
+  
 4. go to certificates path
    ```sh
    cd certificates
    ```
+  
 5. generate a self-signed SSL certificate using OpenSSL
    ```sh
    sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
    ```
+  
 6. edit .env
    ```sh
    nano .env or open the .env by any editior 
    ```
   
-  
-  
 7. change mongodb host
    ```sh
-  MONGODB_HOST='your mongodb host'
-  ```
+   MONGODB_HOST='your mongodb host'
+   ```
+  
 8. change email to put your email
    ```sh
    EMAIL_USER ='your email adress'
@@ -112,14 +108,13 @@ technologies and frameworks is used
   
 9. change password put your email password
    ```sh
-  EMAIL_PASSWORD ='your email password'
-  ```
-
+   EMAIL_PASSWORD ='your email password'
+   ```
+  
 10. run the server using npm 
    ```sh
    npm test
    ```
-
   
 11. if you want run the server using nodemom first 
    ```sh
@@ -133,15 +128,10 @@ technologies and frameworks is used
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [] Add Additional Templates w/ Examples
-- [] Add "components" document to easily copy & paste sections of the readme
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-
-
+- [x] Login
+- [x] Register
+- [x] Forget Password
+- [x] Reset Password
 
 
 <!-- CONTACT -->
