@@ -115,17 +115,17 @@ technologies and frameworks is used
    and tow Collections ('users'-'reset')
    ```
 11. run the server using npm 
-   ```sh
-   npm test
-   ```
+    ```sh
+    npm test
+    ```
 12. if you want run the server using nodemom first 
-   ```sh
-   npm i nodemon
-   ```
+    ```sh
+    npm i nodemon
+    ```
    * just run that 
-  ```sh
-  nodemon server/www
-  ```
+   ```sh
+   nodemon server/www
+   ```
 
 13. if you got that erorr after create self signed cert
    ```sh
@@ -134,7 +134,7 @@ technologies and frameworks is used
    Error: ENOENT: no such file or directory, open '../certificates/server.key'
    ```
   * jsut  run
-  ```sh
+   ```sh
   npm rebuild
   ```
 
