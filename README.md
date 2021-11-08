@@ -122,22 +122,22 @@ technologies and frameworks is used
    ```sh
    npm i nodemon
    ```
-* then run
+   * just run that 
   ```sh
-  npm rebuild
+  nodemon server/www
   ```
+
 13. if you got that erorr after create self signed cert
    ```sh
    node:internal/fs/utils:344
    throw err;
    Error: ENOENT: no such file or directory, open '../certificates/server.key'
    ```
-* just run that 
+  * jsut  run
   ```sh
-  nodemon server/www
+  npm rebuild
   ```
-   
-  
+
   
  
 
